@@ -1,0 +1,96 @@
+.card-container {
+    display: flex;
+    gap: 20px; /* Space between cards */
+    justify-content: center; /* Center cards horizontally */
+    align-items: flex-start; /* Align cards to the top */
+    flex-wrap: wrap; /* Wrap cards to a new row on smaller screens */
+    padding: 20px;
+}
+
+.card {
+    width: 350px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 16px;
+    margin: 20px 0; /* Margin only for top/bottom when stacked horizontally */
+    color: #333;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-header .logo {
+    width: 60%;
+    height: auto;
+    margin-left: 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 18px;
+    color: #32C36C;
+    margin: 10px 0;
+}
+
+.line {
+    border: 1px solid #32C36C;
+    width: 75%;
+    margin: 0 auto 10px auto;
+}
+
+.card-body {
+    margin: 10px 0;
+    width: 500PX;
+}
+
+.card-body .location,
+.card-body .time,
+.card-body .phone {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.card-body i {
+    color: #32C36C;
+    margin-right: 8px;
+    font-size: large;
+}
+
+.card-body p, .card-body a {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.call-btn {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #32C36C;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}

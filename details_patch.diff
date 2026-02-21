@@ -1,0 +1,186 @@
+<!-- Page Header Start -->
+    <div class="container-fluid page-header py-5 mb-5">
+        <div class="container py-5">
+            <h1 class="display-3 text-white mb-3 animated slideInDown">Details</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb text-uppercase">
+                    <li class="breadcrumb-item"><a href="/">Home</a></li>
+                    <li class="breadcrumb-item text-white active" aria-current="page">Details</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+    <!-- Details Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="img-border" style="height: 500px; overflow: hidden;">
+                        <img class="img-fluid w-100 h-100" style="object-fit: cover;" src="https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="High Quality Solar System Image">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <h4 class="section-title bg-white text-start text-primary pe-3">About Our Solar Solutions</h4>
+                    <h1 class="mb-4">Harnessing the Power of the Sun for a Sustainable Future</h1>
+                    <p class="mb-4">At Beliance Energy, we are committed to providing innovative solar energy solutions that empower our customers to reduce their carbon footprint and save on energy costs. Our comprehensive range of services includes on-grid and off-grid solar systems, solar parks, agricultural pumps, and all types of solar equipment.</p>
+                    <p class="mb-4">With years of experience and a team of certified professionals, we ensure that every installation is done with precision and adheres to the highest standards. Choose Beliance Energy for reliable, efficient, and eco-friendly solar solutions.</p>
+                    <div class="row gy-2 gx-4 mb-4">
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Reliable Performance</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Expert Installation</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Cost Savings</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Eco-Friendly</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>24/7 Support</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Government Approved</p>
+                        </div>
+                    </div>
+                    <a class="btn btn-primary py-3 px-5 mt-2" href="{{ route('guest.contact') }}">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Details End -->
+
+    <!-- Features Start -->
+    <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+        <div class="container feature px-lg-0">
+            <div class="row g-0 mx-lg-0">
+                <div class="col-lg-6 feature-text py-5 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="p-lg-5 ps-lg-0">
+                        <h6 class="text-primary">Why Choose Beliance Energy?</h6>
+                        <h1 class="mb-4">Leading the Way in Solar Innovation</h1>
+                        <p class="mb-4 pb-2">We combine cutting-edge technology with unparalleled expertise to deliver solar solutions that exceed expectations. Our commitment to quality and sustainability sets us apart in the industry.</p>
+                        <div class="row g-4">
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="btn-lg-square bg-primary rounded-circle">
+                                        <i class="fa fa-check text-white"></i>
+                                    </div>
+                                    <div class="ms-4">
+                                        <p class="mb-0">Certified</p>
+                                        <h5 class="mb-0">Quality</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="btn-lg-square bg-primary rounded-circle">
+                                        <i class="fa fa-user-check text-white"></i>
+                                    </div>
+                                    <div class="ms-4">
+                                        <p class="mb-0">Expert</p>
+                                        <h5 class="mb-0">Team</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="btn-lg-square bg-primary rounded-circle">
+                                        <i class="fa fa-tools text-white"></i>
+                                    </div>
+                                    <div class="ms-4">
+                                        <p class="mb-0">Advanced</p>
+                                        <h5 class="mb-0">Technology</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="btn-lg-square bg-primary rounded-circle">
+                                        <i class="fa fa-leaf text-white"></i>
+                                    </div>
+                                    <div class="ms-4">
+                                        <p class="mb-0">Eco</p>
+                                        <h5 class="mb-0">Friendly</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 pe-lg-0 wow fadeIn" data-wow-delay="0.5s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="{{ URL::to('/') }}/img/why1.jpg" style="object-fit: cover;" alt="Solar Installation">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Features End -->
+
+    <!-- Gallery Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h3 class="text-primary">Our Work</h3>
+                <h2 class="mb-4">Explore Our Solar Installations</h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="gallery-item" style="height: 300px; overflow: hidden;">
+                        <img class="img-fluid w-100 h-100" style="object-fit: cover;" src="{{ URL::to('/') }}/img/2.jpeg" alt="Solar Panel Installation">
+                        <div class="gallery-overlay d-flex align-items-center justify-content-center">
+                            <h5 class="text-white font-weight-bold mb-0" style="font-size: 1.5rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.7);">Solar Panels</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="gallery-item" style="height: 300px; overflow: hidden;">
+                        <img class="img-fluid w-100 h-100" style="object-fit: cover;" src="{{ URL::to('/') }}/img/3.jpeg" alt="Inverter Setup">
+                        <div class="gallery-overlay d-flex align-items-center justify-content-center">
+                            <h5 class="text-white font-weight-bold mb-0" style="font-size: 1.5rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.7);">Inverters</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="gallery-item" style="height: 300px; overflow: hidden;">
+                        <img class="img-fluid w-100 h-100" style="object-fit: cover;" src="{{ URL::to('/') }}/img/4.jpeg" alt="Solar Park">
+                        <div class="gallery-overlay d-flex align-items-center justify-content-center">
+                            <h5 class="text-white font-weight-bold mb-0" style="font-size: 1.5rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.7);">Solar Parks</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Gallery End -->
+
+@endsection
+=======
+@section('content')
+<div class="container my-5">
+    <h2 class="mb-4 text-center">Our 5G phones - Falla Store Store in FALLA - Gujarat</h2>
+    <div class="row">
+        <div class="col-md-6" style="background-color: #f7f7f7; padding: 20px; border-radius: 8px;">
+            <h5 style="color: #e5723f;">5G Phones - Falla Store</h5>
+            <p><i class="fas fa-map-marker-alt" style="color: #e5723f;"></i> 18, Ganesh Complex, Near Ashapura Hotel, Jamnagar rajkot Highway, Falla, Jamnagar. - 361120</p>
+            <p><i class="fas fa-phone" style="color: #e5723f;"></i> 9979993626</p>
+            <p><strong>Working Hours :</strong></p>
+            <p>10:30 AM TO 10:00 PM (All Days)</p>
+            <div class="d-flex gap-3">
+                <a href="https://maps.google.com/?q=18, Ganesh Complex, Near Ashapura Hotel, Jamnagar rajkot Highway, Falla, Jamnagar. - 361120" target="_blank" class="btn btn-outline-warning" style="color: #e5723f; border-color: #e5723f;">
+                    <i class="fas fa-map-marker-alt"></i> Get Direction
+                </a>
+                <a href="https://wa.me/9979993626" target="_blank" class="btn btn-outline-success">
+                    <i class="fab fa-whatsapp"></i> Via whatsapp
+                </a>
+            </div>
+        </div>
+        <div class="col-md-6 d-flex align-items-center justify-content-center">
+            <img src="{{ URL::to('/') }}/img/placeholder.png" alt="Store Image" style="max-width: 100%; height: auto; border-radius: 8px;">
+        </div>
+    </div>
+</div>
+@endsection

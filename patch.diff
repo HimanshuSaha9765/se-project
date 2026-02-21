@@ -1,0 +1,9 @@
+<div class="container-fluid px-0 store-locator">
+=======
+@section('content')
+<div class="container-fluid page-header py-5 mb-5" style="min-height: 200px;">
+    <div class="container py-5">
+        <h1 class="display-3 text-white mb-3 animated slideInDown">Branch</h1>
+    </div>
+</div>
+<div class="container-fluid px-0 store-locator">

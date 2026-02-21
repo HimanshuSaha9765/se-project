@@ -1,0 +1,134 @@
+.form-control:disabled, .form-control[readonly] {
+    background-color: #fff;
+    opacity: 1;
+}
+textarea {
+    resize: none;
+}
+
+.carousel-image {
+    height: 85vh !important;
+}
+
+.card-header {
+    background: transparent !important;
+}
+
+.list-group-item {
+    border: none !important;
+}
+
+.font-bold {
+    font-weight: 600;
+}
+
+.required_input::after {
+    content: "*";
+    color: red;
+    padding: 5px;
+}
+
+.title {
+    font-size: 12px !important;
+    text-align: center !important;
+    text-transform: capitalize;
+}
+
+.error-message {
+    color: red;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/* datatable styles */
+div.dt-button-collection {
+    width: 400px;
+    padding: 8px !important;
+}
+
+button.buttons-collection.dt-button {
+    padding: 8px 12px !important;
+    outline: none !important;
+    border: none !important;
+    font-weight: 700 !important;
+    font-size: 14px !important;
+    background: #1a2a36c5 !important;
+    border-radius: 5px !important;
+    color: white !important;
+}
+
+div.dt-button-collection button.dt-button {
+    display: inline-block;
+    width: 32%;
+}
+
+div.dt-button-collection button.buttons-colvis {
+    display: inline-block;
+    width: 49%;
+}
+
+div.dt-button-collection h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 100;
+    border-bottom: 1px solid rgba(150, 150, 150, 0.5);
+    font-size: 1em;
+    padding: 0 1em;
+}
+
+div.dt-button-collection h3.not-top-heading {
+    margin-top: 10px;
+}
+
+thead input {
+    width: 100%;
+}
+
+.column-wise-search {
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: transparent;
+    color: inherit;
+    margin-left: 3px;
+}
+
+.paginate_button,
+.previous,
+.next {
+    padding: 8px 12px !important;
+    outline: none !important;
+    border: none !important;
+    font-weight: 700 !important;
+    font-size: 14px !important;
+    background: none !important;
+    margin-top: 2px;
+    border: 1px solid #1a2a36c5 !important;
+    border-radius: 5px !important;
+    color: white !important;
+}
+
+.paginate_button:hover,
+.previous:hover,
+.next:hover {
+    background: #1a2a36c5 !important;
+    color: white !important;
+}
+
+.dataTables_info {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.info-child-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.info-heading {
+    font-weight: 100;
+}
+
+.align-center {
+    text-align: center;
+}
